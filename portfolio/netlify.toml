@@ -1,0 +1,10 @@
+[build]
+  functions = "./backened/"
+[[redirects]]
+  from = '/api/*'
+  to = '/.netlify/functions/:splat'
+  status = 200
+[dev]
+  command = "npm run  start"
+  port = 8000
+  publish = "dist"
