@@ -1,9 +1,9 @@
 import React from "react";
-import logo1 from "/images/logo1.png";
-import title from "/images/title.png";
-import tongue from "/images/tongue.png";
+import logo1 from "../images/logo1.png";
+import title from "../images/title.png";
+import tongue from "../images/tongue.png";
 import { Link, to } from "react-router-dom";
-import hen from "/images/hen.png";
+import hen from "../images/hen.png";
 export default function Navbar() {
   const ShowNav = () => {
     console.log("I am in the Show nav Function");

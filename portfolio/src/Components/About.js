@@ -1,5 +1,5 @@
 import react from "react";
-import venomJoking from "/images/venomJoking.png";
+import venomJoking from "../images/venomJoking.png";
 import SkillBox from "./sub-components/SkillBox";
 export default function About() {
   return (

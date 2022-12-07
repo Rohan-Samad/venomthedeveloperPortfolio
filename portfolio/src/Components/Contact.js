@@ -7,8 +7,6 @@ export default function Contact() {
   const [btnName, setBtnName] = useState("Submit");
   const i = useContext(alertContex);
 
-  // const [email, useEmail] = useState();
-  // const [message, useMessage] = useState();
   const changing = async (e) => {
     setBtnName("Processing...");
 
