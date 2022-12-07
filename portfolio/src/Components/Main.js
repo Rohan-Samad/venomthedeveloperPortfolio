@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import spiderweb from "../images/spiderweb.png";
-import venomSitting from "../images/venomSitting.png";
-import venomAttacking from "../images/venomAttacking.png";
-import venomAttacking2 from "../images/venomAttacking2.png";
-import venomstandingPic from "../images/venomstandingPic.png";
-import Testimonial from "./sub-components/Testimonial";
-import SkillBox from "./sub-components/SkillBox";
-import Contact from "./Contact";
+import spiderweb from "/images/spiderweb.png";
+import venomSitting from "/images/venomSitting.png";
+import venomAttacking from "/images/venomAttacking.png";
+import venomAttacking2 from "/images/venomAttacking2.png";
+import venomstandingPic from "/images/venomstandingPic.png";
+import Testimonial from "/sub-components/Testimonial";
+import SkillBox from "/sub-components/SkillBox";
+import Contact from "/Contact";
 let ammo = 123;
 
 export default function Main() {
